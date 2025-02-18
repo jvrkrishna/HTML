@@ -1,187 +1,105 @@
-<!-- Heading Tags are normally the size varies from h1 to h6 -->
-
-<!-- <html>
-    <head>
-        <title>Heading tags</title>
-    </head>
-    <body>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-    </body>
-</html> -->
-
-<!-- paragraph Tag -->
-<!-- <html>
-    <head>
-        <title>
-            Paragraph Tag
-        </title>
-    </head>
-    <body>
-        <p align="right">This is paragraph</p>
-    </body>
-</html> -->
-
-<!-- preformatted tag 
-<pre> tag represents text. Whitespace inside this elements is displayed as typed. 
--->
-
-<!-- <html>
-    <head>
-        <title>Preformatted Tag</title>
-    </head>
-    <body>
-        <pre>
-        Hi this is Rama
-
-        Krishna from Kakinada.
-                which is located in Andhra pradesh.
-            </pre>
-    </body>
-</html> -->
-
-<!-- <code> tag is used for indicating a piece of code -->
-<!-- <html>
-    <head>
-        <title>Code Tag</title>
-    </head>
-    <body>
-        <pre>
-        <code>
-        #include<stdio.h>
-            main()
-            {
-                printf("Hi this is Rama Krishna")
-            }
-        </code>
-    </pre>
-    </body>
-</html> -->
-
-<!-- Formatting Tags -->
- <!-- <html>
-    <head>
-        <title>Formatting Tags</title>
-    </head>
-    <body>
-        Normal Text<br>
-        <b>Bold Text</b><br>
-        <strong>Strong Text</strong><br>
-        <i>Italic Text</i><br>
-        <mark>Mark Text</mark><br>
-        <u>Underline Text</u><br>
-        <q>Quote Text</q><br>
-        <tt>Typewriter text</tt><br>
-        <strike>Strike text</strike><br>
-        Superscript Text---
-        (a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab<br>
-
-        Subscript Text---
-        H<sub>2</sub>O<br>
-
-        <abbr Title="This is Abbrevation Text">Title</abbr>
-    </body>
- </html>
-  -->
-
-<!-- Attributes
-Attributes are used to inside a tag and it follows att_name="value"    e.g.,text="red" 
--->
-
-<!-- <html>
-    <head>
-        <title>Attributes</title>
-    </head>
-    <body bgcolor="aqua" text="red">
-        Hi this is Rama Krishna
-    </body>
-</html> -->
-
-<!-- Font Tag -->
- <!-- <html>
-    <head>
-        <title>Font Tag</title>
-    </head>
-    <body>
-        <font face="Goudy Old Style" size="7" color="Red">Rama Krishna</font>
-        Rama Krishna
-    </body>
- </html> -->
-
- <!-- Lists 
-  There are three types of list They are.
-  1. Ordereed List---- A, a,I, i ,1
-  2. Unoredered List ---- square, Circle, disc
-  3. Description List---- dl, dt, dd
-  -->
-
-<!-- <html>
-    <head>
-        <title>List Tag</title>
-    </head>
-    <body>
-        <dl>
-            <dt>APPLE</dt>
-            <dd>-This is one type of fruit</dd>
-            <dt>Banana</dt>
-            <dd>-This is also one type of fruit.</dd>
-        </dl>
-    </body>
-</html> -->
-
-<!-- Table
- 
-<table>
-    <tr>---- rows
-        <td>---Columns-->
- <!-- <html>
-    <head>
-        <title>Table Tag</title>
-    </head>
-    <body>
-        <table border="1">
-            <caption>Differences</caption>
-            <tr>
-                <th>ONE</th>
-                <th>TWO</th>
-                <th>THREE</th>
-            </tr>
-            <tr>
-                <td>row 2, cell 1</td>
-                <td colspan="2">row 2, cell 2
-                </td>
-                
-            </tr>
-            <tr>
-                <td>row 3, cell 1</td>
-                <td>row 3, cell 2</td>
-                <td rowspan="2">row 3, cell 3</td>
-            </tr>
-            <tr>
-                <td>row 4, cell 1</td>
-                <td>row 4, cell 2</td>    
-            </tr>
-        </table>
-    </body>
- </html> -->
-
-<!-- Image Tag
- 
-<img>----src,alt, width, height-->
-<!-- 
 <html>
-    <head>
-        <title>
-            Image Tag
-        </title>
-    </head>
-    <body>
-        <img src="./Images/a.jpg" alt="Please check the path" width="500" height="750">
-    </body>
-</html> -->
+<head><title>REGISTRATION FORM</title></head>
+<body bgcolor="fushsia">
 
+<form action="C:\Users\Rama Krishna\Desktop\out.html" method="post" target=_blank>
+
+<fieldset>
+<legend><h1>Internship Form</h1></legend>
+
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" autofocus placeholder="Enter Name" required maxlength=15 pattern="[A-Za-z]{15}"></td>
+</tr>
+
+<tr>
+<td>EMail:</td>
+<td><input type="email" placeholder="Enter Mail Id"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" placeholder="Enter Password"></td>
+</tr>
+
+<tr>
+<td>Phone Number:</td>
+<td><input type="text" value="+91 "></td>
+</tr>
+
+<tr>
+<td>Date of Birth:</td>
+<td><input type="Date"></td>
+</tr>
+
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="a">Male  
+       <input type="radio" name="a">Female</td>
+</tr>
+
+<tr>
+<td>Address:</td>
+<td><textarea rows=4 cols=35>
+</textarea></td>
+</tr>
+
+<tr>
+<td>Known Languages:</td>
+<td><input type="checkbox">Telugu
+<input type="checkbox">English
+<input type="checkbox">Hindi</td>
+</tr>
+
+<tr>
+<td>Your Qulification:</td>
+<td><input type="radio" name="q">SSC
+                <input type="radio" name="q">Inter
+                <input type="radio" name="q">UG
+		<input type="radio" name="q">PG
+</td>
+</tr>
+
+<tr>
+<td>Marks Scored:</td>
+<td><input type="number" placeholder="points" min=5 max=10></td>
+</tr>
+
+<tr></tr>
+
+<tr><td colspan="2">How many months you want to participate in our internship program?</td><tr>
+<tr>
+<td></td>
+<td>
+<select>
+<option></option>
+<option>3 Months</option>
+<option>6 Months</option>
+<option>1 Year</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Resume:</td>
+<td><input type="file" accept="doc/*"></td>
+</tr>
+<tr>
+<td>Price</td>
+<td>
+<input type="range" min="0" max="100" step="2">
+</td>
+</tr>
+<tr>
+<td colspan="2"><button type="submit">Register</button></td>
+</tr>
+</table>
+<h3>Already Registered? <a href="#">Login Here</a></h3>
+
+</fieldset>
+</form>
+
+</body>
+</html>
 
